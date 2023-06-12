@@ -1,7 +1,7 @@
 import React from "react";
 import Login from "./Login";
 
-var userIsRegistered = true;
+var userIsRegistered = false;
 
 function Form() {
   return <Login isRegistered={userIsRegistered} />;
